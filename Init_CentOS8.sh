@@ -113,7 +113,6 @@ function start_init(){
     tools;
     DNS;
     history;
-    optimization;
 }
 
 start_init
