@@ -62,7 +62,7 @@ EOF
 cat >>/etc/sysconfig/chronyd<<EOF
 #Command line options for chronyd
 SYNC_HWCLOCK=yes
-OPTIONS="-g"
+OPTIONS=""
 EOF
 #使用chronyd服务校验时间
 /usr/sbin/hwclock -w
